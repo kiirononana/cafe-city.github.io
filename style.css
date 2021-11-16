@@ -1,0 +1,297 @@
+@media screen and (min-width: 1400px) {
+  body {
+    background-image: url(./image/wall-g704306723_1920.jpg);
+  }
+
+  header {
+    width: 25%;
+    height: 850px;
+    background-color: rgb(65, 41, 11);
+    float: left;
+    color: aliceblue;
+  }
+
+  .maru {
+    border-radius: 100%;
+  }
+
+  .maru2 {
+    border-radius: 100%;
+  }
+
+  #rogoimg {
+    text-align: center;
+    position: relative;
+    top: 50px;
+  }
+
+  nav {
+    margin-top: 150px;
+    text-align: center;
+    margin-right: 35px;
+    margin-bottom: 130px;
+  }
+
+  header ul {
+    font-family: "Martel", serif;
+    font-family: "Noto Serif JP", serif;
+    text-shadow: 1px 2px 3px black;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+  }
+
+  header li {
+    margin-top: 5px;
+  }
+
+  header a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.5s;
+  }
+
+  header a:hover {
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  header p {
+    font-size: 20px;
+    font-family: "Martel", serif;
+    font-family: "Noto Serif JP", serif;
+    text-shadow: 1px 2px 3px black;
+    text-align: center;
+    border-bottom: aliceblue double 2px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+  }
+
+  #SNS {
+    text-align: center;
+    position: relative;
+  }
+
+  .SNS2 {
+    display: inline;
+    float: left;
+    margin-right: -50px;
+    margin-left: 70px;
+  }
+
+  #top {
+    float: right;
+    margin-top: 80px;
+  }
+
+  .image1 {
+    z-index: 2;
+  }
+
+  #square1 {
+    width: 700px;
+    height: 100px;
+    position: relative;
+    top: -774px;
+    left: 300px;
+    background-color: rgba(128, 119, 115, 0.774);
+    z-index: 1;
+  }
+  #square2 {
+    width: 900px;
+    height: 100px;
+    position: relative;
+    top: -108px;
+    left: -104px;
+    background-color: rgba(53, 48, 45, 0.774);
+  }
+
+  /* #tategaki {
+  font-size: 30px;
+  color: aliceblue;
+  writing-mode: vertical-rl;
+  width: max-content;
+  margin-top: -800px;
+  margin-left: 900px;
+} */
+
+  .tategaki {
+    position: absolute;
+    top: 150px;
+    margin-left: 90%;
+    clear: both;
+    background-color: rgb(243, 243, 234);
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-r;
+    width: max-content;
+    color: black;
+    box-shadow: 10px 10px 3px black;
+  }
+
+  .tate {
+    font-size: 36px;
+    margin: 20px 5px;
+    color: black;
+    text-shadow: 1px 2px 3px rgb(131, 130, 130);
+    font-family: "Martel", serif;
+    font-family: "Noto Serif JP", serif;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  body {
+    background-image: url(./image/wall-g704306723_1920.jpg);
+  }
+
+  header {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(65, 41, 11);
+    float: left;
+    color: aliceblue;
+  }
+
+  .maru {
+    border-radius: 100%;
+    width: 150px;
+    float: left;
+    margin: auto 40px;
+    margin-top: 20px;
+  }
+
+  .maru2 {
+    border-radius: 100%;
+    width: 50px;
+    margin: auto 20px;
+  }
+
+  /* #rogoimg {
+  } */
+
+  nav {
+    /* margin-top: 150px;
+    text-align: center;
+    margin-right: 35px;
+    margin-bottom: 130px; */
+    float: left;
+    margin-top: 110px;
+  }
+
+  header ul {
+    font-family: "Martel", serif;
+    font-family: "Noto Serif JP", serif;
+    text-shadow: 1px 2px 3px black;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+  }
+
+  header li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  header a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.5s;
+  }
+
+  header a:hover {
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  header p {
+    display: none;
+    /* font-size: 20px;
+    font-family: "Martel", serif;
+    font-family: "Noto Serif JP", serif;
+    text-shadow: 1px 2px 3px black;
+    text-align: center;
+    border-bottom: aliceblue double 2px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px; */
+  }
+
+  #SNS {
+    /* text-align: center;
+    position: relative; */
+    float: right;
+    margin-top: 30px;
+  }
+
+  .SNS2 {
+    /* display: inline;
+    float: left; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #top {
+    text-align: center;
+  }
+
+  .image1 {
+    /* z-index: 2; */
+    margin-top: 90px;
+    width: 60%;
+    box-shadow: -50px 50px 0 rgba(53, 48, 45, 0.774),
+      50px -50px 0 rgba(128, 119, 115, 0.774);
+  }
+  /* 
+  #square1 {
+    width: 700px;
+    height: 70px;
+    position: relative;
+    top: -577px;
+    left: 680px;
+    background-color: rgba(128, 119, 115, 0.774);
+    z-index: 1;
+  }
+  #square2 {
+    width: 900px;
+    height: 70px;
+    position: relative;
+    top: -78px;
+    left: -104px;
+    background-color: rgba(53, 48, 45, 0.774);
+  } */
+
+  /* #tategaki {
+  font-size: 30px;
+  color: aliceblue;
+  writing-mode: vertical-rl;
+  width: max-content;
+  margin-top: -800px;
+  margin-left: 900px;
+} */
+
+  .tategaki {
+    position: absolute;
+    top: 40%;
+    margin-left: 70%;
+    clear: both;
+    background-color: rgb(243, 243, 234);
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-r;
+    width: max-content;
+    color: black;
+    box-shadow: 10px 10px 3px black;
+  }
+
+  .tate {
+    font-size: 25px;
+    margin: 20px 5px;
+    color: black;
+    text-shadow: 1px 2px 3px rgb(131, 130, 130);
+    font-family: "Martel", serif;
+    font-family: "Noto Serif JP", serif;
+  }
+}
